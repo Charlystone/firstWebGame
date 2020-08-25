@@ -8,7 +8,7 @@ var levelCounter = 0;
 //  main
 
 
-document.addEventListener("keydown", function() {
+document.querySelector("#level-title").addEventListener("click", function() {
   if(gamePattern.length == 0){
     giveNextButton();
   document.querySelector("#level-title").innerText = "Level " + levelCounter
